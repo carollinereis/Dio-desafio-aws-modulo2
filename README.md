@@ -1,7 +1,10 @@
-# **AWS VISAO GERAL**
+# **AWS DIO DESAFIO MÓDULO 2**
+
+# AWS VISÃO GERAL
 **Cloud OPEX** não necessita de grande infrastructure para iniciar projeto
-Modelo 
-**CAPEX** precisa de infrastructure fisica para iniciar projeto
+
+ 
+**Modelo CAPEX** precisa de infrastructure fisica para iniciar projeto  
 -> **Variedade de Servicos:** Desde computacao, armazenamento e banco de dados ate servicos especializados como machine learning, loT e analise de dados.
 
 **Modelos de serviços**
@@ -12,7 +15,7 @@ Modelo
 
 **PaaS** - Plataform as a Service (desenvolvimento de aplicacao, streaming web decisoes de suporte) 
 **CONSTRUA**  
-→ vou pegar minha solucao e implantar e.g. SQL server (só faco deploy)
+→ vou pegar minha solução e implantar e.g. SQL server (só faco deploy)
 
 **IaaS ou Infrastructure as a service** - Infra como servico (Sistema Legado, Servidor de Arquivos
 Segurança, Sistema de gerenciamento,Sistema de cache) **MIGRE**
@@ -30,7 +33,7 @@ O cliente **CONSTRÓI** e implanta sua aplicação sobre a plataforma gerenciada
 **IaaS** - Infraestrutura como serviço
 Ideal para **MIGRAR** sistemas legados (tecnologias mais antigas) para a nuvem, oferecendo controle total sobre servidores e armazenamento.
 
-![alt text](Modelo_Negocios_AWS-1.png)
+![alt text](images/Modelo_Negocios_AWS.png)
 
 A **AWS** se destaca não apenas pela sua **infraestrutura global robusta**, mas também pela capacidade de **inovação** constante e **adaptação às necessidade**s do mercado.
 Isso a torna uma escolha preferida para empresas de todos os tamanhos e setores
@@ -117,7 +120,7 @@ Sistema Operacional
 Como escolher a EC2 correta pra minha aplicação?  
 **→** é crucial saber escolher de forma inteligente a instancia correta na AWS para garantir eficiencia, escalabilidade e economia.
 
-![alt text](Instancias-1.png)
+![alt text](images/Instancias.png)
 
 Como usar cada tipo de Instância EC2 
 
@@ -190,14 +193,14 @@ Cada tipo de instância oferece diferentes recursos de computação como memóri
 Podemos checar no site no PRICE CALCULATOR a estimativa de custo.
 A região define o preço dos produtos/serviços
 
-![alt text](entendendo_nomes-1.png)
+![alt text](images/entendendo_nomes.png)
 
 Você paga pelo segundo da instância, é conveniente e econômico testar vários tipos de instância antes de tomar uma decisão
 
 Para otimizar recurso da para desligar instancias não utilizadas
 Remover recursos ociosos ou  nao utilizados
 
-![alt text](escalar_recursos-1.png)
+![alt text](images/escalar_recursos.png)
 
 **Escalando verticalmente**
 
@@ -233,16 +236,16 @@ S3 – PERGUNTA DE PROVA
 Amazon S3 (Amazon Simple Storage Service) é um serviços de armazenamento de objetos em nuvem oferecidos pela AWS.
 É ideal para armazenar, organizar e recuperar grandes volumes de dados de forma segura e escalável.
 
-![alt text](S3_classes-1.png)
+![alt text](images/S3_classes.png)
 
-![alt text](S3_-1.png)
+![alt text](images/S3_.png)
 
 Podemos utilizar regra de ciclo de vida para definir a forma como o Amazon S3 gere os objetos durante o seu tempo de vida.
 
 O Lifecycle permite fazer a transição de objetos e migrar
 automaticamente para a classe Glacier.
 
-![alt text](amazon_s3-1.png)
+![alt text](images/amazon_s3.png)
 
 **Gerenciamento de instancias EC2**
 
@@ -299,9 +302,9 @@ Conclusão:
 Os snapshots do Amazon EBS são cópias em pontos no tempo de um volume do Amazon EBS, armazenadas no Amazon S3.
 Eles podem ser usados para criar um volume do Amazon EBS, aumentar a durabilidade de dados e fornecer um mecanismo de backup e restauração para volumes do EBS. 
 
-**EXEMPLO DE ARQUITERURA DIAGRAMA USANDO DRAW.IO**
+### **EXEMPLO DE ARQUITERURA DIAGRAMA USANDO DRAW.IO**
 
-![alt text](drawio_exemplo_diagrama-1.png)
+![alt text](images/drawio_exemplo_diagrama.png)
 
 
 **Fluxo de Execução Passo a Passo**
